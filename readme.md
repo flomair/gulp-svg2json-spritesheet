@@ -1,12 +1,14 @@
-# gulp-svg-json-spritesheet
+# gulp-svg2json-spritesheet
 
 > Using this plugin, you'll be able to compress SVGs into a JSON spritesheet file.
 
 
+[based on https://github.com/gurmukhp/gulp-svg-json-spritesheet.git](https://github.com/gurmukhp/gulp-svg-json-spritesheet.git)
+
 ## Install
 
 ```
-$ npm install --save-dev gulp-svg-json-spritesheet
+$ npm install --save-dev gulp-svg2json-spritesheet
 ```
 
 
@@ -14,7 +16,7 @@ $ npm install --save-dev gulp-svg-json-spritesheet
 
 ```js
 var gulp = require('gulp');
-var svg = require('gulp-svg2json');
+var svg = require('gulp-svg2json-spritesheet');
 
 gulp.task('default', function() {
   return gulp.src('svg/*.svg')
@@ -56,7 +58,14 @@ basepath sets the part of the relative Path to be removed from the object key
 
 ## API
 
-### excelsheets2json([options])
+### gulp-svg2json-spritesheet(file,[options])
+
+### file
+Type: `string`
+
+Default: ``
+
+sets the output filename
 
 #### options.basepath
 Type: `string`
