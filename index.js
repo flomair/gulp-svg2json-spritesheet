@@ -40,14 +40,16 @@ module.exports = function(file, opts) {
           var fileName
           if(opts.basePath){
               fileName = filePath.replace(path.resolve(opts.basePath)+"/","").replace("/",opts.delim);
+              if(opts.delim){
+                  fileName =   fileName.replace("/",opts.delim);
+              }else{
+                  fileName =   fileName.replace("/","-");
+              }
           }else{
               fileName = filePath.substring(filePath.lastIndexOf('/') + 1);
           }
-          if(opts.short){
+          if(opts.noExt){
               fileName =   fileName.replace(".svg","")
-          }
-          if(opts.delim){
-              fileName =   fileName.replace("/",opts.delim);
           }
         spritesheet[fileName] = result;
       });

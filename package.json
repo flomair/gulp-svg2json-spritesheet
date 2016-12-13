@@ -1,101 +1,26 @@
 {
-  "_args": [
-    [
-      "gulp-svg-json-spritesheet",
-      "/home/vola/volainit/volaInit"
-    ]
-  ],
-  "_from": "gulp-svg-json-spritesheet@latest",
-  "_id": "gulp-svg-json-spritesheet@0.0.4",
-  "_inCache": true,
-  "_installable": true,
-  "_location": "/gulp-svg-json-spritesheet",
-  "_nodeVersion": "4.6.0",
-  "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/gulp-svg-json-spritesheet-0.0.4.tgz_1478640150458_0.24543426395393908"
-  },
-  "_npmUser": {
-    "email": "gurmukhp@gmail.com",
-    "name": "gurmukh"
-  },
-  "_npmVersion": "3.10.8",
-  "_phantomChildren": {
-    "argparse": "1.0.9",
-    "clap": "1.1.2",
-    "coa": "1.0.1",
-    "colors": "1.1.2",
-    "esprima": "2.7.3",
-    "mkdirp": "0.5.1",
-    "sax": "1.2.1",
-    "source-map": "0.5.6",
-    "whet.extend": "0.9.9"
-  },
-  "_requested": {
-    "name": "gulp-svg-json-spritesheet",
-    "raw": "gulp-svg-json-spritesheet",
-    "rawSpec": "",
-    "scope": null,
-    "spec": "latest",
-    "type": "tag"
-  },
-  "_requiredBy": [
-    "#DEV:/"
-  ],
-  "_resolved": "https://registry.npmjs.org/gulp-svg-json-spritesheet/-/gulp-svg-json-spritesheet-0.0.4.tgz",
-  "_shasum": "2340169281a6ba55143a2982babf367346e98a92",
-  "_shrinkwrap": null,
-  "_spec": "gulp-svg-json-spritesheet",
-  "_where": "/home/vola/volainit/volaInit",
-  "author": {
-    "email": "gurmukhp@gmail.com",
-    "name": "Gurmukh Panesar"
-  },
-  "bugs": {
-    "url": "https://github.com/gurmukhp/gulp-svg-json-spritesheet/issues"
-  },
   "dependencies": {
     "gulp-util": "^3.0.7",
     "svgo": "^0.6.6",
     "through2": "^2.0.1"
   },
   "description": "Compress SVGs into a JSON spritesheet.",
-  "devDependencies": {
-    "ava": "^0.14.0",
-    "xo": "^0.14.0"
-  },
-  "directories": {},
-  "dist": {
-    "shasum": "2340169281a6ba55143a2982babf367346e98a92",
-    "tarball": "https://registry.npmjs.org/gulp-svg-json-spritesheet/-/gulp-svg-json-spritesheet-0.0.4.tgz"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
   "files": [
     "index.js"
   ],
-  "gitHead": "59064b7bcb6f3c7cf8c80686c45adbadc210e20d",
-  "homepage": "https://github.com/gurmukhp/gulp-svg-json-spritesheet#readme",
+  "homepage": "https://github.com/flomair/gulp-svg-json-spritesheet#readme",
   "keywords": [
     "gulpplugin"
   ],
   "license": "MIT",
   "maintainers": [
-    {
-      "name": "gurmukh",
-      "email": "gurmukhp@gmail.com"
-    }
+    "flomair <flomair@github.com>"
   ],
   "name": "gulp-svg-json-spritesheet",
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gurmukhp/gulp-svg-json-spritesheet.git"
+    "url": "git+https://github.com/flomair/gulp-svg-json-spritesheet.git"
   },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "version": "0.0.4"
+  "version": "0.0.1",
+  "main": "index.js"
 }
